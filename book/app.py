@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-import sqlite3
-
 from flask import Flask
 
 from book import models

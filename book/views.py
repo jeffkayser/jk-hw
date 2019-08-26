@@ -1,6 +1,6 @@
 import json
 
-from flask import abort, Blueprint, jsonify, request, Response
+from flask import Blueprint, jsonify, request
 from werkzeug.exceptions import BadRequest
 
 from book import models
