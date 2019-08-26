@@ -27,14 +27,14 @@ $ http POST localhost:8088/request title='Pride and Prejudice' email='asdf@examp
 ### Create request (bad JSON)
 
 ```bash
-$ http POST localhost:8088/request/
+$ http POST localhost:8088/request
 ```
 
 
 ### Create request (bad email)
 
 ```bash
-$ http POST localhost:8088/request/ title='Pride and Prejudice' email='asdf@a'
+$ http POST localhost:8088/request title='Pride and Prejudice' email='asdf@'
 ```
 
 
@@ -48,7 +48,7 @@ $ http POST localhost:8088/request title='Best Book Ever' email='asdf@example.co
 ### Get all requests
 
 ```bash
-$ http GET localhost:8088/request/
+$ http GET localhost:8088/request
 ```
 
 
@@ -66,5 +66,5 @@ $ http GET localhost:8088/request/1
 Assumptions: request ID=1 exists
 
 ```bash
-$ http DELETE localhost:8088/request/
+$ http DELETE localhost:8088/request/1
 ```
