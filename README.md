@@ -14,8 +14,11 @@ $ git clone https://github.com/jeffkayser/jk-hw.git
 $ docker-compose up
 ```
 
-Recommend testing with [HTTPie](https://httpie.org/)
+This should instantiate the app and create a running server at:
 
+http://localhost:8088
+
+Recommend testing with [HTTPie](https://httpie.org/)
 
 ### Create request (valid)
 
