@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    container_name: jk-hw
+    image: jk-hw
+    build: .
+    ports:
+    - '8088:5000'
+    volumes:
+      - .:/app
